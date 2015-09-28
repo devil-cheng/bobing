@@ -1,0 +1,437 @@
+@-webkit-keyframes dice1 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 25%;left: 28%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 34%;left: 36%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 44%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 53%;left: 53%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 55%;left: 57%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 57%;left: 64%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 62%;left: 62%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 66%;left: 61%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 68%;left: 59%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 70%;left: 56%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 51%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 72%;left: 45%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 70%;left: 40%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 35%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 63%;left: 28%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 58%;left: 22%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 55%;left: 26%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 52%;left: 30%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 55%;left: 37%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 57%;left: 44%;}
+}
+@-moz-keyframes dice1 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 25%;left: 28%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 34%;left: 36%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 44%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 53%;left: 53%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 55%;left: 57%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 57%;left: 64%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 62%;left: 62%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 66%;left: 61%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 68%;left: 59%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 70%;left: 56%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 51%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 72%;left: 45%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 70%;left: 40%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 35%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 63%;left: 28%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 58%;left: 22%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 55%;left: 26%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 52%;left: 30%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 55%;left: 37%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 57%;left: 44%;}
+}
+@-o-keyframes dice1 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 25%;left: 28%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 34%;left: 36%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 44%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 53%;left: 53%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 55%;left: 57%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 57%;left: 64%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 62%;left: 62%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 66%;left: 61%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 68%;left: 59%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 70%;left: 56%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 51%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 72%;left: 45%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 70%;left: 40%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 35%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 63%;left: 28%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 58%;left: 22%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 55%;left: 26%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 52%;left: 30%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 55%;left: 37%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 57%;left: 44%;}
+}
+@keyframes dice1 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 25%;left: 28%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 34%;left: 36%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 44%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 53%;left: 53%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 55%;left: 57%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 57%;left: 64%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 62%;left: 62%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 66%;left: 61%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 68%;left: 59%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 70%;left: 56%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 51%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 72%;left: 45%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 70%;left: 40%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 35%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 63%;left: 28%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 58%;left: 22%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 55%;left: 26%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 52%;left: 30%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 55%;left: 37%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 57%;left: 44%;}
+}
+
+@-webkit-keyframes dice2 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 25%;left: 20%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 35%;left: 21%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 45%;left: 22%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 55%;left: 23%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 62%;left: 26%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 69%;left: 30%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 70%;left: 34%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 71%;left: 38%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 71%;left: 41%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 72%;left: 45%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 50%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 70%;left: 54%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 69%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 62%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 66%;left: 63%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 63%;left: 64%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 59%;left: 63%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 55%;left: 61%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 54%;left: 58%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 53%;left: 55%;}
+}
+@-moz-keyframes dice2 {
+	0%{top: 15%;left: 35%;}
+	5% {top: 25%;left: 32%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 35%;left: 29%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 45%;left: 26%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 55%;left: 23%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 62%;left: 26%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 69%;left: 30%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 70%;left: 34%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 71%;left: 38%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 71%;left: 41%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 72%;left: 45%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 50%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 70%;left: 54%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 69%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 62%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 66%;left: 63%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 63%;left: 64%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 59%;left: 63%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 55%;left: 61%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 54%;left: 58%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 53%;left: 55%;}
+}
+@-o-keyframes dice2 {
+	0%{top: 15%;left: 35%;}
+	5% {top: 25%;left: 32%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 35%;left: 29%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 45%;left: 26%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 55%;left: 23%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 62%;left: 26%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 69%;left: 30%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 70%;left: 34%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 71%;left: 38%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 71%;left: 41%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 72%;left: 45%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 50%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 70%;left: 54%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 69%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 62%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 66%;left: 63%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 63%;left: 64%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 59%;left: 63%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 55%;left: 61%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 54%;left: 58%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 53%;left: 55%;}
+}
+@keyframes dice2 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 25%;left: 20%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 35%;left: 21%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 45%;left: 22%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 55%;left: 23%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 62%;left: 26%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 69%;left: 30%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 70%;left: 34%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 71%;left: 38%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 71%;left: 41%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 72%;left: 45%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 71%;left: 50%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 70%;left: 54%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 69%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 68%;left: 62%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 66%;left: 63%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 63%;left: 64%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 59%;left: 63%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 55%;left: 61%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 54%;left: 58%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 53%;left: 55%;}
+}
+
+@-webkit-keyframes dice3 {
+	0%{top: 15%;left: 20%;}
+	10% {top: 40%;left: 24%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 65%;left: 28%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 60%;left: 32%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 55%;left: 35%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 38%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 61%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 64%;left: 42%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 68%;left: 40%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 72%;left: 38%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 67%;left: 35%;}
+}
+@-moz-keyframes dice3 {
+	0%{top: 15%;left: 50%;}
+	10% {top: 40%;left: 41%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 65%;left: 33%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 60%;left: 30%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 55%;left: 35%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 38%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 61%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 64%;left: 42%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 68%;left: 40%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 72%;left: 38%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 67%;left: 35%;}
+}
+@-o-keyframes dice3 {
+	0%{top: 15%;left: 20%;}
+	10% {top: 40%;left: 24%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 65%;left: 28%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 60%;left: 32%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 55%;left: 35%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 38%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 61%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 64%;left: 42%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 68%;left: 40%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 72%;left: 38%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 67%;left: 35%;}
+}
+@keyframes dice3 {
+	0%{top: 15%;left: 20%;}
+	10% {top: 40%;left: 24%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 65%;left: 28%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 60%;left: 30%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 55%;left: 35%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 38%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 61%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 64%;left: 42%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 68%;left: 40%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 72%;left: 38%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 67%;left: 35%;}
+}
+@-webkit-keyframes dice4 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 28%;left: 30%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 41%;left: 39%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 55%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 69%;left: 48%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 70%;left: 42%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 71%;left: 36%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 59%;left: 28%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 56%;left: 20%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 51%;left: 25%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 46%;left: 30%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 44%;left: 35%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 41%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 45%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 48%;left: 56%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 54%;left: 61%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 60%;left: 65%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 63%;left: 62%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 67%;left: 59%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 68%;left: 54%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 69%;left: 48%;}
+}
+@-moz-keyframes dice4 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 28%;left: 30%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 41%;left: 39%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 55%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 69%;left: 48%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 70%;left: 42%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 71%;left: 36%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 59%;left: 28%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 56%;left: 20%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 51%;left: 25%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 46%;left: 30%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 44%;left: 35%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 41%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 45%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 48%;left: 56%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 54%;left: 61%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 60%;left: 65%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 63%;left: 62%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 67%;left: 59%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 68%;left: 54%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 69%;left: 48%;}
+}
+@-o-keyframes dice4 {
+	0%{top: 30%;left: 20%;}
+	5% {top: 40%;left: 30%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 50%;left: 39%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 60%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 69%;left: 48%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 70%;left: 42%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 71%;left: 36%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 59%;left: 28%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 56%;left: 20%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 51%;left: 25%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 46%;left: 30%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 44%;left: 35%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 41%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 45%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 48%;left: 56%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 54%;left: 61%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 60%;left: 65%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 63%;left: 62%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 67%;left: 59%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 68%;left: 54%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 69%;left: 48%;}
+}
+@keyframes dice4 {
+	0%{top: 15%;left: 20%;}
+	5% {top: 28%;left: 30%;-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+	10% {top: 41%;left: 39%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	15% {top: 55%;left: 44%;-webkit-transform: rotate(540deg);-moz-transform: rotate(540deg);transform: rotate(540deg);}
+	20% {top: 69%;left: 48%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	25% {top: 70%;left: 42%;-webkit-transform: rotate(900deg);-moz-transform: rotate(900deg);transform: rotate(900deg);}	
+	30% {top: 71%;left: 36%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	35% {top: 59%;left: 28%;-webkit-transform: rotate(1260deg);-moz-transform: rotate(1260deg);transform: rotate(1260deg);}	
+	40% {top: 56%;left: 20%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	45% {top: 51%;left: 25%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	50% {top: 46%;left: 30%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	55% {top: 44%;left: 35%;-webkit-transform: rotate(1980deg);-moz-transform: rotate(1980deg);transform: rotate(1980deg);}
+	60% {top: 41%;left: 40%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	65% {top: 45%;left: 58%;-webkit-transform: rotate(2340deg);-moz-transform: rotate(2340deg);transform: rotate(2340deg);}
+	70% {top: 48%;left: 56%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	75% {top: 54%;left: 61%;-webkit-transform: rotate(5400deg);-moz-transform: rotate(5400deg);transform: rotate(5400deg);}
+	80% {top: 60%;left: 65%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	85% {top: 63%;left: 62%;-webkit-transform: rotate(3060deg);-moz-transform: rotate(3060deg);transform: rotate(3060deg);}
+	90% {top: 67%;left: 59%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	95% {top: 68%;left: 54%;-webkit-transform: rotate(1620deg);-moz-transform: rotate(1620deg);transform: rotate(1620deg);}
+	100%{top: 69%;left: 48%;}
+}
+
+@-webkit-keyframes dice5 {
+	0%{top: 15%;left: 20%;}
+	10% {top: 40%;left: 40%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 64%;left: 60%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 72%;left: 52%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 71%;left: 36%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 24%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 45%;left: 33%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 42%;left: 52%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 47%;left: 60%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 54%;left: 64%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 64%;left: 60%;}
+}
+@-moz-keyframes dice5 {
+	0%{top: 30%;left: 35%;}
+	10% {top: 47%;left: 47%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 64%;left: 60%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 72%;left: 52%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 71%;left: 36%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 24%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 45%;left: 33%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 42%;left: 52%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 47%;left: 60%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 54%;left: 64%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 64%;left: 60%;}
+}
+@-o-keyframes dice5 {
+	0%{top: 30%;left: 35%;}
+	10% {top: 47%;left: 47%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 64%;left: 60%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 72%;left: 52%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 71%;left: 36%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 24%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 45%;left: 33%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 42%;left: 52%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 47%;left: 60%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 54%;left: 64%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 64%;left: 60%;}
+}
+@keyframes dice5 {
+	0%{top: 15%;left: 20%;}
+	10% {top: 40%;left: 40%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}
+	20% {top: 64%;left: 60%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 72%;left: 52%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 71%;left: 36%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 58%;left: 24%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 45%;left: 33%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 42%;left: 52%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 47%;left: 60%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 54%;left: 64%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 64%;left: 60%;}
+}
+
+
+@-webkit-keyframes dice6 {
+	0%{top: 15%;left: 20%;}
+	10% {top: 24%;left: 26%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}	
+	20% {top: 33%;left: 31%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 42%;left: 37%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 50%;left: 42%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 53%;left: 46%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 55%;left: 51%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 58%;left: 46%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 60%;left: 42%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 58%;left: 37%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 55%;left: 32%;}
+}
+@-moz-keyframes dice6 {
+	0%{top: 30%;left: 50%;}
+	10% {top: 42%;left: 41%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}	
+	20% {top: 55%;left: 32%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 53%;left: 37%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 50%;left: 42%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 53%;left: 46%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 55%;left: 51%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 58%;left: 46%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 60%;left: 42%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 58%;left: 37%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 55%;left: 32%;}
+}
+@-o-keyframes dice6 {
+	0%{top: 30%;left: 50%;}
+	10% {top: 42%;left: 41%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}	
+	20% {top: 55%;left: 32%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 53%;left: 37%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 50%;left: 42%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 53%;left: 46%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 55%;left: 51%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 58%;left: 46%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 60%;left: 42%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 58%;left: 37%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 55%;left: 32%;}
+}
+@keyframes dice6 {
+	0%{top: 15%;left: 20%;}
+	10% {top: 24%;left: 26%;-webkit-transform: rotate(360deg);-moz-transform: rotate(360deg);transform: rotate(360deg);}	
+	20% {top: 33%;left: 31%;-webkit-transform: rotate(720deg);-moz-transform: rotate(720deg);transform: rotate(720deg);}	
+	30% {top: 42%;left: 37%;-webkit-transform: rotate(1080deg);-moz-transform: rotate(1080deg);transform: rotate(1080deg);}	
+	40% {top: 50%;left: 42%;-webkit-transform: rotate(1440deg);-moz-transform: rotate(1440deg);transform: rotate(1440deg);}
+	50% {top: 53%;left: 46%;-webkit-transform: rotate(3600deg);-moz-transform: rotate(3600deg);transform: rotate(3600deg);}
+	60% {top: 55%;left: 51%;-webkit-transform: rotate(2160deg);-moz-transform: rotate(2160deg);transform: rotate(2160deg);}
+	70% {top: 58%;left: 46%;-webkit-transform: rotate(2520deg);-moz-transform: rotate(2520deg);transform: rotate(2520deg);}
+	80% {top: 60%;left: 42%;-webkit-transform: rotate(2880deg);-moz-transform: rotate(2880deg);transform: rotate(2880deg);}
+	90% {top: 58%;left: 37%;-webkit-transform: rotate(3240deg);-moz-transform: rotate(3240deg);transform: rotate(3240deg);}
+	100%{top: 55%;left: 32%;}
+}

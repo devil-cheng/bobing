@@ -1,0 +1,79 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,a{ padding: 0; margin: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+del, ins { text-decoration:none;}
+fieldset, img { border: 0;}
+body,button,input,select,textarea{ font:14px/1.6 "Microsoft YaHei";}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; } 
+input,select,img{ vertical-align:middle}
+input,select{ outline:none}
+ul,ol{ list-style:none;}
+h1, h2, h3, h4, h5, h6 {font-weight:400;}
+address,cite,dfn,em,var{font-style:normal;}
+legend{ display:none}
+td{ font-size:12px; line-height:160%;}
+input::-moz-focus-inner,button::-moz-focus-inner{ border:0;padding:0}
+.clearfix:after{content:"";height:0;visibility:hidden;display:block;clear:both;}
+.clearfix{zoom:1;}
+.clear{clear:both;height:0;overflow:hidden;}
+.left{ float:left;}
+.right{ float:right;}
+
+.main{max-width: 1000px;margin: 0 auto;}
+.bowl{text-align: center;margin: 20px auto; width: 78%; }
+.bowl .bg_img{ width: 100%;margin-top: 150px; }
+.btn-box{text-align: center;}
+.btn-box .btn{background: blue;color: #ffffff;border: none;border-radius:10px ;padding: 10px 20px;}
+#dicebox{position: relative;}
+#dicebox #redpacket0,#dicebox #redpacket1,#dicebox #redpacket2,#dicebox #redpacket3,#dicebox #redpacket4,#dicebox #redpacket5{
+	top: 15%;left: 20%;width: 10%;position: absolute;
+	-webkit-animation-duration: 1.5s;
+	   -moz-animation-duration: 1.5s;
+	     -o-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-animation-fill-mode: both;
+	   -moz-animation-fill-mode: both;
+	     -o-animation-fill-mode: both;
+	        animation-fill-mode: both;
+	-webkit-animation-direction: alternate;
+	   -moz-animation-direction: alternate;
+	     -o-animation-direction: alternate;
+	        animation-direction: alternate;
+		position: absolute;
+	}
+#dicebox #redpacket0{
+	-webkit-animation-name: dice1;
+	-moz-animation-name: dice1;
+	-o-animation-name: dice1;
+	animation-name: dice1;
+}
+#dicebox #redpacket1{
+	-webkit-animation-name: dice2;
+	-moz-animation-name: dice2;
+	-o-animation-name: dice2;
+	animation-name: dice2;
+}
+#dicebox #redpacket2{
+	-webkit-animation-name: dice3;
+	-moz-animation-name: dice3;
+	-o-animation-name: dice3;
+	animation-name: dice3;
+}
+#dicebox #redpacket3{
+	-webkit-animation-name: dice4;
+	-moz-animation-name: dice4;
+	-o-animation-name: dice4;
+	animation-name: dice4;
+}
+#dicebox #redpacket4{
+	-webkit-animation-name: dice5;
+	-moz-animation-name: dice5;
+	-o-animation-name: dice5;
+	animation-name: dice5;
+}
+#dicebox #redpacket5{
+	-webkit-animation-name: dice6;
+	-moz-animation-name: dice6;
+	-o-animation-name: dice6;
+	animation-name: dice6;
+}
+
